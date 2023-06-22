@@ -3,7 +3,7 @@ from lorem_text import lorem
 from datetime import datetime
 
 # Number of files to be created
-x = 500
+x = 501
 
 current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 folder_name = "folder_{}".format(current_time)
